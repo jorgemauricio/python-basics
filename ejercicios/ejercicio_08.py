@@ -15,9 +15,3 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 	de 5, entre los valores 1, 1000. Los numeros que se obtengan deben de imprimirse separados por una "," 
 	
 """
-
-l = []
-for i in range(1, 1000):
-	if (i%7==0) and (i%5!=0):
-		l.append(str(i))
-print(','.join(l))
